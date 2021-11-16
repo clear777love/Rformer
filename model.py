@@ -242,6 +242,6 @@ class Rformer(nn.Module):
 
     def forward(self, x, stage, mask=None):
 
-        # To prevent code leakage, this part of the code is temporarily hidden
+        # This part of the code is temporarily hidden
         
         return x + RICB_out, x + y
